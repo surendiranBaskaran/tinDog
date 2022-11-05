@@ -142,6 +142,10 @@ p {
     position: static;
     transform: rotate(0);
   }
+
+  .title-button {
+    margin-bottom: 10px;
+  }
 }
 
 /* call for action */
