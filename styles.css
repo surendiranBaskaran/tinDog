@@ -1,0 +1,177 @@
+body {
+  font-family: "Montserrat-Black";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: 900;
+}
+
+p {
+  color: grey;
+}
+
+.big-headings {
+  font-size: 3.5rem;
+  line-height: 1;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/* title */
+.brand {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title .container-fluid {
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+/* title-image */
+.rotate {
+  width: 250px;
+  transform: rotate(20deg);
+  position: absolute;
+  z-index: 0;
+  right: 30%;
+}
+
+/* features */
+
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.features-icon {
+  color: #ff7d7d;
+  font-size: 1.5rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* carousel */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 20px;
+}
+
+#press {
+  padding-bottom: 3%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* pricing */
+#pricing {
+  padding: 80px;
+  text-align: center;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 20px;
+}
+
+/* media-query */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .rotate {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* call for action */
+#cta {
+  background-color: #ff4c68;
+  padding: 5%;
+  color: white;
+  text-align: center;
+  font-family: "Montserrat-Black";
+  font-weight: 900px;
+}
+
+.action {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.action-button {
+  margin: 20px;
+}
+
+/* footer */
+#footer {
+  background-color: #fff;
+  padding: 2%;
+  text-align: center;
+}
+
+.copyright-footer {
+  padding: 10px;
+}
